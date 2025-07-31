@@ -1,16 +1,30 @@
-# to_do_nti
+# ✅ ToDO - Flutter App
 
-A new Flutter project.
+A simple and efficient **To-Do List App** built with Flutter.  
+This project is part of the NTI training and is designed to help users manage their daily tasks with ease and productivity.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 Add, Edit, and Delete Tasks
+- 📅 Mark Tasks as Completed or Pending
+- 📌 Task Priority Management
+- 🔔 Task Reminder (Optional)
+- 🌙 Light & Dark Theme Support
+- 💾 Local Data Persistence with `sqflite` / `Hive`
+- 🧩 Clean and Organized Codebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Project Structure
+
+```bash
+lib/
+├── core/             # Themes, constants, helpers
+├── features/
+│   ├── tasks/        # Task logic: UI, Cubit/Bloc, Model
+│   └── shared/       # Reusable widgets and services
+├── data/             # Local database or mock APIs
+└── main.dart
+
